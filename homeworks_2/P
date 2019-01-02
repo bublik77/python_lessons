@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Wed Jan  2 17:26:22 2019 as: nmap -oP 192.168.0.12
+WARNING: eth_send of ARP packet returned -1 rather than expected 42 (errno=22: Invalid argument)
+WARNING: eth_send of ARP packet returned -1 rather than expected 42 (errno=22: Invalid argument)
+# Nmap done at Wed Jan  2 17:26:22 2019 -- 1 IP address (0 hosts up) scanned in 0.53 seconds
