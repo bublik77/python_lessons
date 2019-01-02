@@ -2,5 +2,5 @@
 
 
 1. Create account
-	- ./cleos.sh ...
+	 ./cleos.sh ...
 
