@@ -1,4 +1,4 @@
-# This are Q&A
+# Q&A
 
 
 1. Create EOSIO account
