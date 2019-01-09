@@ -5,7 +5,7 @@
 	- Run ./start.sh --delete-all-blocks --genesis-json genesis.json in NODE folder
 
 2. Create EOSIO account
-	- ./cleos.sh system newaccount --stake-net "100.0000 EOS" --stake-cpu "100.0000 EOS" --buy-ram-kbytes 4 **your accountr** **new account** **owner_pup_key** **active_pub_key**
+	- ./cleos.sh system newaccount --stake-net "100.0000 EOS" --stake-cpu "100.0000 EOS" --buy-ram-kbytes 4 **\<your accountr\>** **\<new account\>** **\<owner_pup_key\>** **\<active_pub_key\>**
 
 3. Send EOS
 	- ./cleos.sh transfer **your account**  **receiver account** "1.0000 EOS" "test memo text"
