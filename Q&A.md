@@ -54,5 +54,3 @@
 		}
 		```
 	- restore: ./start --snapshot **\<path to snapshot\>**
-
-14. 
