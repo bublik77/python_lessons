@@ -5,19 +5,19 @@
 	- Run ./start.sh --delete-all-blocks --genesis-json genesis.json in NODE folder
 
 2. Create EOSIO account
-	- ./cleos.sh system newaccount --stake-net "100.0000 EOS" --stake-cpu "100.0000 EOS" --buy-ram-kbytes 4 ** your accountr ** ** new account ** ** owner_pup_key ** ** active_pub_key **
+	- ./cleos.sh system newaccount --stake-net "100.0000 EOS" --stake-cpu "100.0000 EOS" --buy-ram-kbytes 4 **your accountr** **new account** **owner_pup_key** **active_pub_key**
 
 3. Send EOS
-	- ./cleos.sh transfer ** your account **  ** receiver account ** "1.0000 EOS" "test memo text"
+	- ./cleos.sh transfer **your account**  **receiver account** "1.0000 EOS" "test memo text"
 
 4. Get Balance
-	- ./cleos.sh get currency balance eosio.token ** account name **
+	- ./cleos.sh get currency balance eosio.token **account name**
 
-5. List registered producers (-l ** limit **)
+5. List registered producers (-l **limit**)
 	- ./cleos.sh get table eosio eosio producers -l 100
 
 6. List staked/delegate
-	- ./cleos.sh system listbw ** account **
+	- ./cleos.sh system listbw **account**
 
 7. how can I check  REX balance
 	- ./cleos.sh get table eosio eosio rexbal
@@ -32,7 +32,7 @@
 	- ./cleos.sh push action eosio deposit '{"owner":"**YOUR ACC**","amount":"**AMOUNT** EOS"}' -p **YOUR ACC**
 
 9. Rent CPU
-	- ./cleos.sh push action eosio rentcpu '{"from":"**YOUR ACC**","receiver":"**YOUR OR SOMEOENE ACC**","loan_payment":"**AMOUNT** EOS","loan_fund":"** AMOUNT ** EOS"}' -p ** YOUR ACC **
+	- ./cleos.sh push action eosio rentcpu '{"from":"**YOUR ACC**","receiver":"**YOUR OR SOMEOENE ACC**","loan_payment":"**AMOUNT** EOS","loan_fund":"**AMOUNT** EOS"}' -p **YOUR ACC**
 
 10. Buy REX
 	- ./cleos.sh push action eosio buyrex '{"from":"**YOUR ACC**","amount":"**AMOUNT** EOS"}' -p testertester
@@ -53,4 +53,4 @@
 		  "snapshot_name": "/opt/JungleTestnet-NODE/snapshots/snapshot-0077d693b072b92aec7d1af86f753995ff7daeeb2316616f9e3e341e44689836.bin"
 		}
 		```
-	- restore: ./start --snapshot ** path to snapshot **
+	- restore: ./start --snapshot **path to snapshot**
