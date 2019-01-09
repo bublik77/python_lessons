@@ -45,7 +45,7 @@
 	- copy blocks and state folder(if you have the backup or download it from http://backup.jungletestnet.io (ubuntu 16/18)) 
 	- start node
 
-13. Snapshot system in 1.4 (described here https://github.com/EOSIO/eos/pull/5956) very fast but no access to old blocks after recover, plugin producer_api_plugin must be enabled
+13. Snapshot system in 1.4 (described here https://github.com/EOSIO/eos/pull/5956) very fast but no access to old blocks after recover, plugin **\<producer_api_plugin\>** must be enabled
 	- create: curl -sS http://127.0.0.1:8888/v1/producer/create_snapshot | jq '.'
 		```
 		{
