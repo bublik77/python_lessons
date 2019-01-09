@@ -50,7 +50,7 @@
 		```
 		{
 		  "head_block_id": "0077d693b072b92aec7d1af86f753995ff7daeeb2316616f9e3e341e44689836",
-		  "snapshot_name": "/opt/JungleTestnet-NODE/snapshots/snapshot-0077d693b072b92aec7d1af86f753995ff7daeeb2316616f9e3e341e44689836.bin"
+		  "snapshot_name": "<data-dir>/snapshots/snapshot-0077d693b072b92aec7d1af86f753995ff7daeeb2316616f9e3e341e44689836.bin"
 		}
 		```
 	- restore: ./start --snapshot **\<path to snapshot\>**
