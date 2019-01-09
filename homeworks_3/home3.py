@@ -7,4 +7,11 @@ Created on Fri Dec 21 14:38:32 2018
 """
 
 def compare (one,two,three):
-    if 
+    try:
+        if int(one) and int(two) and (three):
+            if int(one) > int(two):
+                print(one + " is more then "+two)
+    except:
+        print('cannot')
+
+compare(5,'3',4)
